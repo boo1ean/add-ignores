@@ -11,11 +11,11 @@ ignores.forEach(target => {
 	const targetName = `.${target}ignore`
 
 	assert(
-		availableIgnorefiles.indexOf(targetName) !== -1,
+		availableIgnorefiles.indexOf(target) !== -1,
 		`Unknown target "${target}"`)
 
 	fs.copyFile(
-		path.resolve(ignorefilesPath, targetName),
+		path.resolve(ignorefilesPath, target),
 		path.resolve(process.cwd(), targetName),
 		(e) => e ? console.error(e) : console.log('Created %s', targetName))
 })
