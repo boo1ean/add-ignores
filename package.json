@@ -1,10 +1,10 @@
 {
-  "name": "add-ignore",
-  "version": "1.0.0",
+  "name": "add-ignores",
+  "version": "1.0.1",
   "description": "Generate ignore files",
   "main": "src/index.js",
   "bin": {
-  	  "add-ignores": "src/index.js"
+    "add-ignores": "src/index.js"
   },
   "keywords": [
     "ignore",
