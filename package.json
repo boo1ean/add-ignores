@@ -1,0 +1,18 @@
+{
+  "name": "add-ignore",
+  "version": "1.0.0",
+  "description": "Generate ignore files",
+  "main": "src/index.js",
+  "bin": {
+  	  "add-ignores": "src/index.js"
+  },
+  "keywords": [
+    "ignore",
+    "git",
+    "gitignore",
+    "dockerignore",
+    "cli"
+  ],
+  "author": "Egor Gumenyuk <boo1ean0807@gmail.com>",
+  "license": "MIT"
+}
